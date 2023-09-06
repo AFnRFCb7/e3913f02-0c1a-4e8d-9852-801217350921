@@ -1,5 +1,22 @@
 # Rewards Project
 
+## Running the project
+1. Initially (this will not be required each time you run the project)
+   1. Clone this project to a local directory.
+   2. Run `npm install` to automagically get all dependencies.
+2. Each time you run the project
+   1. you need to `npm start`
+   2. Hit `http://localhost:3000` with your browser
+
+## The data.json
+The data json object contains three elements:  the months, the users, and the data itself.
+The months are the names of the months, the users are the names of the users, and the data is a three dimensional array where the outer layer are the months, the middle layer are the users, and the inner layer are the transactions the specified user made in the specified month.
+
+I have made the data json object cooperatively.
+I have not tested making the data json object combatively.
+I assume it depends on the data being reasonable and it will fail if for example the data object contains more users than are in the users object.
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
